@@ -1,0 +1,82 @@
+html { 
+ height: 100%;
+ background-image: url('https://images.pexels.com/photos/1080882/pexels-photo-1080882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+ background-size: cover;
+}
+
+#banner{
+  padding-top:22%;
+  font-family: 'Skranji', cursive;
+  font-size:35px;
+  display:flex;
+  justify-content: center;
+  color:#2f5ac6;
+}
+
+#heading{
+  height:100%;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  justify-  content: space-around;
+}
+  
+.navbar { 
+  display:  flex;
+  justify-content: space-around;
+  background-color: purple;
+  position: fixed;
+  top: 0; 
+  left:  0; 
+  width:  100%; 
+}
+
+
+.navbar a {
+  float: left ;
+  display: block;
+  text-align: center ;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #9370DB;
+  font-family: 'Montserrat', sans-serif;  
+}
+  
+
+.navbar a:hover {
+   color: white;
+   background: #9370DB;
+} 
+#about-content{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 22%;
+}
+
+img{
+  border-radius:50%;
+  border:solid 5px#9370DB;
+}
+  
+.my-description{
+  background: white;
+  margin:3%;
+  padding:4%
+  font-family;'Montserrat',sans-serif;
+  .project-container{ 
+    margin-top: 20%
+    display: flex;
+    width: 100%;
+    heigh: 100%;
+    justify-content: space-between;
+}
+
+span{
+ background:#9370DB
+ width: 30%;
+ heigh: 60%;
+ matgin :2%;
+ padding:2%
+ font-family:'Montserrat' sans-serif;
+ color:white;
+ align-tems: center;
+}
